@@ -3,7 +3,7 @@ from rest_framework import viewsets
 from .models import Book, LibraryUser, Transaction
 from .serializers import BookSerializer, LibraryUserSerializer, TransactionSerializer
 
-// ViewSets for LibraryUser,  Book and Transaction
+
 
 
 class BookViewSet(viewsets.ModelViewSet):
